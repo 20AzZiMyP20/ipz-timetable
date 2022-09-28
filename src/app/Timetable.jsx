@@ -4,7 +4,6 @@ import { getToday } from '../helpers/get-today.js';
 import { getTime } from '../helpers/get-time.js';
 import Task from './Task.jsx';
 import Avatar from '../svg/anonym.svg';
-import "./Timetable.css";
 import { isToday } from '../helpers/is-today.js';
 import { getDay } from '../helpers/get-day.js';
 

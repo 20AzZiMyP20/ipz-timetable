@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack && webpack serve",
-    "build": "webpack",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d public"
+    "build": "webpack"
   },
   "author": "Borysiuk Oleksandr",
   "license": "ISC",

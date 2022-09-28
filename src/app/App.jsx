@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Timetable from './Timetable.jsx';
-import "../../public/style.css";
+import "../style/style.css";
 import "../svg/anonym.svg"
 import { getToweek } from '../helpers/get-toweek.js';
 import { requestService } from '../services/request-service.js';
