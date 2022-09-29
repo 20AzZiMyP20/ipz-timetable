@@ -13,7 +13,7 @@ export default {
             directory: path.join(__dirname, "/public"),
         },
         port: 3000,
-        open: true
+        open: false
     },
     module: {
         rules: [

@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack && webpack serve",
-    "build": "webpack"
+    "dev": "webpack --mode=development && webpack serve",
+    "build": "webpack --mode=production"
   },
   "author": "Borysiuk Oleksandr",
   "license": "ISC",
