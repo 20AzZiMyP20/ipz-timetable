@@ -1,0 +1,9 @@
+#timetable ul {
+    list-style: none;
+}
+
+@media screen and (max-width: 900px) {
+    #timetable {
+        width: 100%;
+    }
+}

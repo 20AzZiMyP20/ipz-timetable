@@ -1,0 +1,17 @@
+.timetable {
+    position: relative;
+    display: block;
+    flex-grow: 1;
+
+    margin: 1rem;
+    padding: 0.5rem;
+
+    border-radius: 1rem;
+
+    z-index: 9999;
+}
+
+.title {
+    text-align: center;
+    color: #eee;
+}

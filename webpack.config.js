@@ -32,8 +32,22 @@ export default {
             },
             {
                 test: /\.css?$/,
+                exclude: /(node_modules)|\.module\.css?$/,
+                use: ["style-loader", "css-loader"],
+            },
+            {
+                test: /\.module\.css?$/,
                 exclude: /(node_modules)/,
-                use: ["style-loader", "css-loader"]
+                use: [
+                    "style-loader",
+                    {
+                        loader: "css-loader",
+                        options: {
+                            importLoaders: 1,
+                            modules: true,
+                        },
+                    },
+                ],
             },
             {
                 test: /\.svg$/,
